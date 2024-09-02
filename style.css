@@ -1,0 +1,47 @@
+body,h1,h2,p{
+    margin:0;
+    padding: 0;
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+header{
+    background-color:#333;
+    color: aqua;
+    text-align: center;
+    padding: 1rem;
+}
+main{
+    padding:2rem;
+
+}
+.profile{
+    display: 1px;;
+    align-items: center;
+}
+.photo{
+    flex:1rem;
+    padding: 2rem;
+
+}
+.photo img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 10px;
+}
+.bio{
+    flex:2;
+
+}
+footer{
+    text-align: center;
+    padding:1rem;
+    background-color: black;
+    color:snow;
+}
+
+    
+}
